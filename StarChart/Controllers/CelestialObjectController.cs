@@ -23,7 +23,7 @@ namespace StarChart.Controllers
         {
 
             // var celestialObj = _context.CelestialObjects.Where(c => c.Id == id);
-            var celestialObj = _context.CelestialObjects.Where(c => c.Id == id)
+            var celestialObj = _context.CelestialObjects.Where(c => c.Id == id);
 
 
             if (celestialObj == null)
